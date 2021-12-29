@@ -35,8 +35,8 @@
 <br/><br/><br/><br/>
 
 ## 본론
-- ## PPO2 
-   - ## PPO에서 추가된 기법
+- ## PPO2 (PPO + 추가 기법)
+   - ## 추가 기법
    - 기존 PPO 알고리즘에 여러 기법들을 추가하여 분산을 감소 시키고 학습의 안정성과 수렴성을 높인다.
   
    - 1. Value function clipping :implementation instead fits the value network with a PPO-like objective<br/> 
@@ -50,7 +50,7 @@
    - 5. Observation Clipping:  state s 를 clipping 한다. (분산 감소)
    - 6. Global Gradient Clipping : actor와 critic 의 가중치를 clipping (오버피팅 방지)
    - 
-   <br/><br/><br/>
+   <br/><br/>
    - ## PPO
    - Deep Reinforcement Learning in Quantitative Algorithmic Trading: A Review 에 따르면 PPO는 타 RL알고리즘 보다 주식시장의 복잡한 환경에서 잘작동 하므로 선택했다.
    
