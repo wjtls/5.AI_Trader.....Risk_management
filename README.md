@@ -122,6 +122,7 @@
      - 사용 지표: 종가 데이터, LPPL 지표
      - 시장 수익률 : 27.9762 %
      - AI 에이전트 수익률 : 86.120 %
+     - ![image](https://user-images.githubusercontent.com/60399060/147722619-9f53425b-6f2c-4330-a6a6-9e7abf729520.png)
      - 비고 : 학습 완료 (리워드 수렴, PV 증가, actor net과 critic net 의 target 피팅 확인)
 
      <br/><br/>
