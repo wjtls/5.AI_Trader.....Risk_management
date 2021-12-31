@@ -179,6 +179,6 @@
   - Proximal Policy Optimization Algorithms [PPO 논문]
   - IMPLEMENTATION MATTERS IN DEEP POLICY GRADIENTS:A CASE STUDY ON PPO AND TRPO [PPO2 논문]
   - Dragon-kings and Predictions Diagnostics and Forecasts for the World Financial Crisis [LPPL 논문]
-  - Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy [앙상블 논문 turbulence index]
+  - Deep Reinforcement Learning for Automated Stock Trading: An Ensemble Strategy [앙상블 논문 의 turbulence index부분 참고]
   
   <br/><br/><br/><br/>
