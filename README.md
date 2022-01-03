@@ -117,7 +117,7 @@
 ## 결론
    - ## 학습 데이터 셋 결과
      - ![image](https://user-images.githubusercontent.com/60399060/147517708-414712f7-0438-4c76-bbd7-5492a089df94.png)
-     - 위 그래프: AI의 Portfolio value, 아래 그래프: SP500 주가
+     - 위 그래프: AI의 Portfolio value, 아래 그래프: SP500 주가 (데이터: 일봉)
      - 사용 지표: 종가 데이터, LPPL 지표
      - 시장 수익률 : 27.9762 %
      - AI 에이전트 수익률 : 86.120 %
@@ -130,7 +130,7 @@
      - ## 위험성 회피 전략을 사용하지 않은 AI 트레이더
      - ![image](https://user-images.githubusercontent.com/60399060/147517160-6a7bfe2d-e4d1-49ca-a8ea-33a93e5bb2a2.png)
      - 그래프: AI의 Portfolio value
-     - 사용 지표: 종가 데이터
+     - 사용 지표: 종가 데이터 (일봉)
      - 시장 수익률 : 8.411694 %
      - AI 에이전트 수익률 : -1.385 %
      - MDD(Maximum draw down) : 시장MDD= 약 -35% 일때 에이전트 최대 낙폭은 -29%로 시장대비 안정적이나 여전히 큰 하락폭이다.
@@ -139,7 +139,7 @@
      - ## 위험성 회피 전략(LPPL 지표+turbulence index)을 학습 한 AI 트레이더
      - ![image](https://user-images.githubusercontent.com/60399060/147558704-f37004ee-4297-4258-97a8-dbb0703c8b89.png)
      - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
-     - 사용 지표: 종가 데이터, LPPL 지표
+     - 사용 지표: 종가 데이터, LPPL 지표 (데이터: 일봉)
      - 시장 수익률 : 8.411694 %
      - AI 에이전트 수익률 : 19.697 %
      - MDD(Maximum draw down : 최대 손실폭) : 시장MDD= 약 -35% 일때 에이전트는 최대 -20.337 % 의 낙폭을 보인다.
