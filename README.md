@@ -121,15 +121,13 @@
      - 사용 지표: 종가 데이터, LPPL 지표
      - 시장 수익률 : 27.9762 %
      - AI 에이전트 수익률 : 86.120 %
-     - ![image](https://user-images.githubusercontent.com/60399060/147722619-9f53425b-6f2c-4330-a6a6-9e7abf729520.png)
+     - ![image](https://user-images.githubusercontent.com/60399060/148913996-e5983d34-6e1a-43b1-8015-a3a5f716bf28.png)
      - 비고 : 학습 완료 (리워드 수렴, PV 증가, actor net과 critic net 의 target 피팅 확인)
 
      <br/><br/>
    - ## 검증 데이터 셋 결과<br/>
     
      - ## 위험성 회피 전략을 사용하지 않은 AI 트레이더
-     - ![image](https://user-images.githubusercontent.com/60399060/147517160-6a7bfe2d-e4d1-49ca-a8ea-33a93e5bb2a2.png)
-     - 그래프: AI의 Portfolio value
      - 사용 지표: 종가 데이터 (일봉)
      - 시장 수익률 : 8.411694 %
      - AI 에이전트 수익률 : -1.385 %
