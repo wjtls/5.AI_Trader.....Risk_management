@@ -132,7 +132,7 @@
      - ## 위험성 회피 전략(LPPL 지표+turbulence index)을 학습 한 AI 트레이더 (22.1/13일 1차 개선)
      - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
      - ![image](https://user-images.githubusercontent.com/60399060/149353163-7e56a577-14ab-453d-a6c1-c8ce1d349271.png)
-     - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
+     - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가 (기간 약 6개월)
      - 사용 지표: 본인이 만든 지표1, 본인이 만든 지표2 , 기존 지표3 (데이터: 일봉)
      - 시장 수익률 : 5.48 %
      - AI 에이전트 수익률 : 29.8 %
