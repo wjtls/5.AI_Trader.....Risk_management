@@ -24,10 +24,12 @@
   - turbulence index 사용 (위험성 회피 전략)
   - PPO2 에이전트 사용 (PPO -> PPO2로 개선)
   - 백테스팅
+  - 지표 2개를 만듦(state에 사용)
+  
 <br/><br/><br/><br/>
 ## 요약
   - Bitcoin or SPY(sp 500) 호출
-  - 사용할 지표 계산 (stochastic RSI , Volume ratio, 투자 심리도) 
+  - 지표 생성 (현재까지 사용되지 않은 새로운 지표)
   - LPPL(위험 회피 모델) 출력후 지표로 사용 
   - 사용할 지표데이터를 Denoise Auto Encoder 에 통과 시켜 노이즈 제거
   - PPO2 에이전트 학습
@@ -126,21 +128,15 @@
 
      <br/><br/>
    - ## 검증 데이터 셋 결과<br/>
-    
-     - ## 위험성 회피 전략을 사용하지 않은 AI 트레이더
-     - 사용 지표: 종가 데이터 (일봉)
-     - 시장 수익률 : 8.411694 %
-     - AI 에이전트 수익률 : -1.385 %
-     - MDD(Maximum draw down) : 시장MDD= 약 -35% 일때 에이전트 최대 낙폭은 -29%로 시장대비 안정적이나 여전히 큰 하락폭이다.
-     - 결론: 종가 데이터 하나만 사용 할 경우 LPPL 지표를 사용 하는 것 보다 하락장에서 손실이 크다, 오버피팅<br/><br/>
    
-     - ## 위험성 회피 전략(LPPL 지표+turbulence index)을 학습 한 AI 트레이더
-     - ![image](https://user-images.githubusercontent.com/60399060/147558704-f37004ee-4297-4258-97a8-dbb0703c8b89.png)
+     - ## 위험성 회피 전략(LPPL 지표+turbulence index)을 학습 한 AI 트레이더 (22.1/13일 1차 개선)
+     - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
+     - ![image](https://user-images.githubusercontent.com/60399060/149353163-7e56a577-14ab-453d-a6c1-c8ce1d349271.png)
      - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
      - 사용 지표: 종가 데이터, LPPL 지표 (데이터: 일봉)
-     - 시장 수익률 : 8.411694 %
-     - AI 에이전트 수익률 : 19.697 %
-     - MDD(Maximum draw down : 최대 손실폭) : 시장MDD= 약 -35% 일때 에이전트는 최대 -20.337 % 의 낙폭을 보인다. (초기 현금대비 -5%)
+     - 시장 수익률 : 5.48 %
+     - AI 에이전트 수익률 : 29.8 %
+     - MDD(Maximum draw down : 최대 손실폭) : 시장MDD= 약 -35% 일때 에이전트는 최대 -5 % 이내의 낙폭을 보인다. 
      - 결론: 위험성 전략을 학습 할 경우 PPO2의 탐욕적인 매매와 MDD에서 안정적인 트레이딩을 보장 한다. <br/><br/>
 
      
@@ -148,6 +144,7 @@
   
 <br/><br/><br/><br/>
 ## 한계 및 개선
+  - MDD에서 수익률 개선
      
   - Denoise Auto Encoder를 과적합 시키면 노이즈가 오히려 증가 했다.<br/>
       - 학습 epoch 감소 시키고 적절한 학습률 및 은닉층을 설정<br/>
