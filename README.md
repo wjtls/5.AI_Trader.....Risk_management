@@ -127,7 +127,7 @@
      - 비고 : 학습 완료 (리워드 수렴, PV 증가, actor net과 critic net 의 target 피팅 확인)
 
      <br/><br/>
-   - ## 검증 데이터 셋 결과<br/>
+   - ## 백테스팅 결과<br/>
    
      - ## 위험성 회피 전략(LPPL 지표+turbulence index)을 학습 한 AI 트레이더 (22.1/13일 1차 개선)
      - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
