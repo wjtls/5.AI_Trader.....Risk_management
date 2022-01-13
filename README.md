@@ -1,6 +1,6 @@
-# Risk-management-LPPL-PPO2-AI-trader
+# Risk-management-PPO2-AI-trader
 
-## AI (PPO2  알고리즘)과 위험성회피 전략(LPPL모델, Turblence index)을 적용시킨 강화학습 트레이더
+## AI (PPO2  알고리즘)과 위험성회피 전략을 적용시킨 강화학습 트레이더
 
   - 도구
 
@@ -20,7 +20,7 @@
 ## 기능
   - 크롤링 및 API를 사용한 주가,코인 데이터 수집
   - 데이터의 노이즈 완화(Denoise Auto Encoder)
-  - LPPL 모델사용 (위험성 회피 전략)
+  - 위험성 회피 전략 사용
   - turbulence index 사용 (위험성 회피 전략)
   - PPO2 에이전트 사용 (PPO -> PPO2로 개선)
   - 백테스팅
@@ -30,7 +30,7 @@
 ## 요약
   - Bitcoin or SPY(sp 500) 호출
   - 지표 생성 (현재까지 사용되지 않은 새로운 지표)
-  - LPPL(위험 회피 모델) 출력후 지표로 사용 
+  - 위험성 회피 지표  
   - 사용할 지표데이터를 Denoise Auto Encoder 에 통과 시켜 노이즈 제거
   - PPO2 에이전트 학습
 <br/><br/><br/><br/>
@@ -71,7 +71,7 @@
 
 <br/><br/><br/>
 
-- ## LPPL (위험성 지표)
+- ## LPPL (위험성 전략중 하나)
   - 1. LPPL의 가정
      - LPPL 모델에서는 초기에 배당이 없고 이자율, 위험회피 등이 없는 이상적인 시장을 가정. <br/><br/>
        그래서 이상적인 시장에서는 주가의 펀더멘털 가치(주식의 이론적가치)가 0이다. <br/>
@@ -120,7 +120,7 @@
    - ## 학습 데이터 셋 결과
      - ![image](https://user-images.githubusercontent.com/60399060/147517708-414712f7-0438-4c76-bbd7-5492a089df94.png)
      - 위 그래프: AI의 Portfolio value, 아래 그래프: SP500 주가 (데이터: 일봉)
-     - 사용 지표: 종가 데이터, LPPL 지표
+     - 사용 지표: 본인이 만든 지표1, 본인이 만든 지표2 , 기존 지표3
      - 시장 수익률 : 27.9762 %
      - AI 에이전트 수익률 : 86.120 %
      - ![image](https://user-images.githubusercontent.com/60399060/148913996-e5983d34-6e1a-43b1-8015-a3a5f716bf28.png)
@@ -133,7 +133,7 @@
      - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
      - ![image](https://user-images.githubusercontent.com/60399060/149353163-7e56a577-14ab-453d-a6c1-c8ce1d349271.png)
      - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
-     - 사용 지표: 종가 데이터, LPPL 지표 (데이터: 일봉)
+     - 사용 지표: 본인이 만든 지표1, 본인이 만든 지표2 , 기존 지표3 (데이터: 일봉)
      - 시장 수익률 : 5.48 %
      - AI 에이전트 수익률 : 29.8 %
      - MDD(Maximum draw down : 최대 손실폭) : 시장MDD= 약 -35% 일때 에이전트는 최대 -5 % 이내의 낙폭을 보인다. 
