@@ -129,7 +129,7 @@
      <br/><br/>
    - ## 백테스팅 결과 <br/>
    - 
-     - ## 위험성 회피 지표를 학습 한 AI 트레이더 (22.1/13일 1차 개선, 백테스팅 기간 약 6개월)
+     - ## 위험성 회피 지표를 학습 한 AI 트레이더 (22.1/13일 1차 개선, 백테스팅 기간 177일)
      - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
      - ![image](https://user-images.githubusercontent.com/60399060/149353163-7e56a577-14ab-453d-a6c1-c8ce1d349271.png)
      - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
