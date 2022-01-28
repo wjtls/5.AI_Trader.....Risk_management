@@ -138,7 +138,7 @@
      - MDD(Maximum draw down : 최대 손실폭) : 손실 거의 없음 
      - 결론: 상승장(353일간)에서 알파 수익률 178.71968% <br/><br/>
      
-     - ## 하락 구간에서 백테스팅 (test data set, 22.1/28일 2차 개선) 
+     - ## 하락,횡보 구간에서 백테스팅 (test data set, 22.1/28일 2차 개선) 
      - ![image](https://user-images.githubusercontent.com/60399060/151470653-1703e75b-fc98-4ce0-859f-dd62fbc2df51.png)
      - ![image](https://user-images.githubusercontent.com/60399060/151470710-30849ff6-29b3-447d-a150-e982d92684ad.png)
      - 위 그래프: AI의 Portfolio value , 아래 그래프: Kindex SP&500  (실험 데이터: 일봉 174일간 하락장)
