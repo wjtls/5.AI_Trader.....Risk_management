@@ -118,30 +118,36 @@
 
 ## 결론
    - ## 학습 데이터 셋 결과
-     - ![image](https://user-images.githubusercontent.com/60399060/147517708-414712f7-0438-4c76-bbd7-5492a089df94.png)
-     - 위 그래프: AI의 Portfolio value, 아래 그래프: SP500 주가 (데이터: 일봉)
-     - 사용 지표: 본인이 만든 지표1, 본인이 만든 지표2 , 기존 지표3
-     - 시장 수익률 : 27.9762 %
-     - AI 에이전트 수익률 : 86.120 %
+     - ![image](https://user-images.githubusercontent.com/60399060/151469030-059fc5f1-599a-41b4-8ef1-bbc322a5136e.png)
+     - 위 그래프: AI의 Portfolio value, 아래 그래프: Kindex SP&500  (데이터: 일봉 1283일)
+     - 사용 지표: 만든 지표, 기존 지표
+     - 시장 수익률 : 85.19882 %
+     - AI 에이전트 수익률 : 1671.47290 %
      - ![image](https://user-images.githubusercontent.com/60399060/148913996-e5983d34-6e1a-43b1-8015-a3a5f716bf28.png)
      - 비고 : 학습 완료 (리워드 수렴, PV 증가, actor net과 critic net 의 target 피팅 확인)
 
      <br/><br/>
    - ## 백테스팅 결과 <br/>
-   - 
-     - ## 위험성 회피 지표를 학습 한 AI 트레이더 (22.1/13일 1차 개선, 백테스팅 기간 177일)
-     - ![image](https://user-images.githubusercontent.com/60399060/149353067-1225c864-4fc3-47a1-941a-ed7ac3eefbf3.png)
-     - ![image](https://user-images.githubusercontent.com/60399060/149353163-7e56a577-14ab-453d-a6c1-c8ce1d349271.png)
-     - 위 그래프: AI의 Portfolio value , 아래 그래프: SP500 주가
-     - 사용 지표: 본인이 만든 지표1, 본인이 만든 지표2 , 기존 지표3 (데이터: 일봉)
-     - 시장 수익률 : 5.48 %
-     - AI 에이전트 수익률 : 29.8 %
-     - MDD(Maximum draw down : 최대 손실폭) : 시장MDD= 약 -35% 일때 에이전트는 최대 -5 % 이내의 낙폭을 보인다. 
-     - 결론: 위험성 전략을 학습 할 경우 PPO2의 탐욕적인 매매와 MDD에서 안정적인 트레이딩을 보장 한다. <br/><br/>
-
+   - 사용 지표: 만든 지표, 기존 지표 
+     - ## 상승 구간에서 백테스팅 (validation data set, 22.1/28일 2차 개선) 
+     - ![image](https://user-images.githubusercontent.com/60399060/151469198-a7e28c54-5b96-4ebc-a57f-42936de55180.png)
+     - ![image](https://user-images.githubusercontent.com/60399060/151469155-ef3c2c99-45ba-4ec2-aaf5-0e57473b6cc4.png)
+     - 위 그래프: AI의 Portfolio value , 아래 그래프: Kindex SP&500  (실험 데이터: 일봉 353일간 상승장)
+     - 시장 수익률 : 54.39252 %
+     - AI 에이전트 수익률 : 233.1122 %
+     - MDD(Maximum draw down : 최대 손실폭) : 손실 거의 없음 
+     - 결론: 상승장(353일간)에서 알파 수익률 178.71968% <br/><br/>
+     
+     - ## 하락 구간에서 백테스팅 (test data set, 22.1/28일 2차 개선) 
+     - ![image](https://user-images.githubusercontent.com/60399060/151470653-1703e75b-fc98-4ce0-859f-dd62fbc2df51.png)
+     - ![image](https://user-images.githubusercontent.com/60399060/151470710-30849ff6-29b3-447d-a150-e982d92684ad.png)
+     - 위 그래프: AI의 Portfolio value , 아래 그래프: Kindex SP&500  (실험 데이터: 일봉 174일간 하락장)
+     - 시장 수익률 : -10.3620 %
+     - AI 에이전트 수익률 : 29.861 %
+     - MDD(Maximum draw down : 최대 손실폭) : 손실 거의 없음 
+     - 결론: 하락장(174일간)에서 알파 수익률 40.223% <br/><br/>
      
      
-  
 <br/><br/><br/><br/>
 ## 한계 및 개선
   - MDD에서 수익률 개선
