@@ -128,7 +128,7 @@
 
      <br/><br/>
    - ## 백테스팅 결과 <br/>
-   - 사용 지표: 만든 지표, 기존 지표 
+   - 사용 지표: 직접 생성한 지표, 기존 지표 
      - ## 상승 구간에서 백테스팅 (validation data set, 22.1/28일 2차 개선) 
      - ![image](https://user-images.githubusercontent.com/60399060/151469198-a7e28c54-5b96-4ebc-a57f-42936de55180.png)
      - ![image](https://user-images.githubusercontent.com/60399060/151469155-ef3c2c99-45ba-4ec2-aaf5-0e57473b6cc4.png)
