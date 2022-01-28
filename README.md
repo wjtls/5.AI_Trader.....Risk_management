@@ -119,7 +119,7 @@
 ## 결론
    - ## 학습 데이터 셋 결과
      - ![image](https://user-images.githubusercontent.com/60399060/151469030-059fc5f1-599a-41b4-8ef1-bbc322a5136e.png)
-     - 위 그래프: AI의 Portfolio value, 아래 그래프: Kindex SP&500  (데이터: 일봉 1283일)
+     - 위 그래프: AI의 Portfolio value, 아래 그래프: 삼성전자 주가  (데이터: 일봉 1283일)
      - 사용 지표: 만든 지표, 기존 지표
      - 시장 수익률 : 85.19882 %
      - AI 에이전트 수익률 : 1671.47290 %
@@ -141,7 +141,7 @@
      - ## 하락,횡보 구간에서 백테스팅 (test data set, 22.1/28일 2차 개선) 
      - ![image](https://user-images.githubusercontent.com/60399060/151470653-1703e75b-fc98-4ce0-859f-dd62fbc2df51.png)
      - ![image](https://user-images.githubusercontent.com/60399060/151470710-30849ff6-29b3-447d-a150-e982d92684ad.png)
-     - 위 그래프: AI의 Portfolio value , 아래 그래프: Kindex SP&500  (실험 데이터: 일봉 174일간 하락장)
+     - 위 그래프: AI의 Portfolio value , 아래 그래프: 삼성전자 주가  (실험 데이터: 일봉 174일간 하락장)
      - 시장 수익률 : -10.3620 %
      - AI 에이전트 수익률 : 29.861 %
      - MDD(Maximum draw down : 최대 손실폭) : 손실 거의 없음 
