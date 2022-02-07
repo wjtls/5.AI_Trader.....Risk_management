@@ -132,7 +132,7 @@
      - ## 상승 구간에서 백테스팅 (validation data set, 22.1/28일 2차 개선) 
      - ![image](https://user-images.githubusercontent.com/60399060/151469198-a7e28c54-5b96-4ebc-a57f-42936de55180.png)
      - ![image](https://user-images.githubusercontent.com/60399060/151469155-ef3c2c99-45ba-4ec2-aaf5-0e57473b6cc4.png)
-     - 위 그래프: AI의 Portfolio value , 아래 그래프: Kindex SP&500  (실험 데이터: 일봉 353일간 상승장)
+     - 위 그래프: AI의 Portfolio value , 아래 그래프: 삼성전자 주가  (실험 데이터: 일봉 353일간 상승장)
      - 시장 수익률 : 54.39252 %
      - AI 에이전트 수익률 : 233.1122 %
      - MDD(Maximum draw down : 최대 손실폭) : 손실 거의 없음 
