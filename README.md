@@ -117,6 +117,7 @@
    
 
 ## 결론
+   - ## 주의: 아래 결과는 본론의 내용으로 구현하지 않음(수정 된 방법을 사용함).  
    - ## 학습 데이터 셋 결과
      - ![image](https://user-images.githubusercontent.com/60399060/151469030-059fc5f1-599a-41b4-8ef1-bbc322a5136e.png)
      - 위 그래프: AI의 Portfolio value, 아래 그래프: 삼성전자 주가  (데이터: 일봉 1283일)
